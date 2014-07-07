@@ -17,7 +17,7 @@ RUN wget http://trilinos.sandia.gov/download/files/trilinos-11.8.1-Source.tar.bz
 ADD trilinos-debian-cmake.sh /trilinos-11.8.1-Source/build/trilinos-debian-cmake.sh
 RUN cd trilinos-11.8.1-Source/build;\
     ./trilinos-debian-cmake.sh;\
-    make -j8 && make install;\
+    make -j16 && make install;\
     cd ../..;\
-    rm -rf hdf5-1.8.13 hdf5-1.8.13.tar.bz2 
+    rm -rf trilinos-11.8.1-Source trilinos-11.8.1-Source.tar.bz2 
 
