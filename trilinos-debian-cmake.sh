@@ -30,6 +30,7 @@ cmake -D CMAKE_INSTALL_PREFIX:PATH=/usr/local/trilinos/ \
   -D Trilinos_ENABLE_Zoltan:BOOL=ON \
   -D Trilinos_ENABLE_SEACAS:BOOL=ON \
   -D Trilinos_ENABLE_NOX:BOOL=ON \
+  -D Trilinos_ENABLE_Pamgen:BOOL=ON \
   -D Trilinos_ENABLE_SEACASPLT=OFF \
   -D Trilinos_ENABLE_SEACASBlot=OFF \
   -D Trilinos_ENABLE_SEACASFastq=OFF \
