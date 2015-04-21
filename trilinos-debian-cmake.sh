@@ -5,7 +5,7 @@ rm -f CMakeCache.txt
 MPI_HOME=/usr
 EXTRA_ARGS=$@
 
-cmake -D CMAKE_INSTALL_PREFIX:PATH=/usr/local/trilinos/ \
+/usr/local/cmake/bin/cmake -D CMAKE_INSTALL_PREFIX:PATH=/usr/local/trilinos/ \
   \
   -D MPI_BASE_DIR:PATH=/usr \
   \
